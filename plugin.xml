@@ -7,7 +7,12 @@
   <keywords>mqtt, iot, push, notification</keywords>
   <repo>https://github.com/fastrde/cordova-plugin-fastrde-mqtt.git</repo>
   <issue>https://github.com/fastrde/cordova-plugin-fastrde-mqtt/issues</issue>
+
+  <!-- for phonegap build cloud -->
+  <!-- <plugin version="0.8.6" source="npm" name="cordova-sqlite-evcore-extbuild-free" /> -->
+  <!-- for custom build -->
 	<!-- <dependency id="cordova-sqlite-storage" version="2.0.4" /> -->
+
 	<dependency id="cordova-plugin-network-information" version="1.3.3" />
   <js-module src="www/mqtt.js" name="mqtt">
     <clobbers target="mqtt" />
